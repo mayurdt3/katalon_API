@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Mission</name>
+   <tag></tag>
+   <elementGuidId>fb0cfb2c-f71e-45f0-8857-e32850100137</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>SOAPAction</name>
+      <type>Main</type>
+      <value>http://tempuri.org/SOAP.Demo.Mission</value>
+      <webElementGuid>f31b7851-7c12-4446-b137-3bb95b7103dd</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>5e0ed957-7985-4465-afcc-3d68fc72d11f</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org&quot;>&#xd;
+   &lt;soapenv:Header/>&#xd;
+   &lt;soapenv:Body>&#xd;
+      &lt;tem:Mission/>&#xd;
+   &lt;/soapenv:Body>&#xd;
+&lt;/soapenv:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceEndpoint>https://www.crcind.com:443/csp/samples/SOAP.Demo.cls</soapServiceEndpoint>
+   <soapServiceFunction>Mission</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>https://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL=1</wsdlAddress>
+</WebServiceRequestEntity>

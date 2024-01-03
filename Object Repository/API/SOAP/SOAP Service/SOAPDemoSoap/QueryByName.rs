@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>QueryByName</name>
+   <tag></tag>
+   <elementGuidId>0e79367f-5eeb-413e-b0ca-3b3994dde5bf</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>SOAPAction</name>
+      <type>Main</type>
+      <value>http://tempuri.org/SOAP.Demo.QueryByName</value>
+      <webElementGuid>22d55ebf-de07-4f99-b9fd-0ae330dfe09c</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>4e2bf2b2-0987-4c7e-ac57-734ca4ddc865</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org&quot;>&#xd;
+   &lt;soapenv:Header/>&#xd;
+   &lt;soapenv:Body>&#xd;
+      &lt;tem:QueryByName>&#xd;
+         &lt;tem:name>gero et&lt;/tem:name>&#xd;
+      &lt;/tem:QueryByName>&#xd;
+   &lt;/soapenv:Body>&#xd;
+&lt;/soapenv:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceEndpoint>https://www.crcind.com:443/csp/samples/SOAP.Demo.cls</soapServiceEndpoint>
+   <soapServiceFunction>QueryByName</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>https://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL=1</wsdlAddress>
+</WebServiceRequestEntity>
