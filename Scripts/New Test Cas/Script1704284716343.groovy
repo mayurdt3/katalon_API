@@ -17,15 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-responce = WS.sendRequestAndVerify(findTestObject('API/REQRES/Get user list'))
-
-WS.verifyElementPropertyValue(responce, 'data[4].first_name', 'George')
-
-WS.verifyElementsCount(responce, 'data', 6)
-
-WS.verifyResponseStatusCode(responce, 200)
-
-WS.verifyResponseStatusCodeInRange(responce, 200, 204)
-
-WS.sendRequest(findTestObject(null))
+WS.sendRequestAndVerify(findTestObject('API/REQRES/Get user list'))
 
