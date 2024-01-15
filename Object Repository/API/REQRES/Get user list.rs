@@ -7,23 +7,23 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
    <katalonVersion>9.1.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
+   <restUrl>https://reqres.in/api/users/?page=2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <validationSteps>
       <id>eb8d2e9f-cdc9-4f6b-8a45-4ebdaf19b5fa</id>
@@ -54,11 +54,11 @@ WS.verifyResponseStatusCode(response, 200)
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 
-assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))
-WS.verifyElementPropertyValue(response, 'data[4].first_name', &quot;George&quot;)
+WS.verifyElementPropertyValue(response, 'data[2].first_name', &quot;Emma&quot;)
 
+GlobalVariable.First_Name = WS.getElementPropertyValue(response, 'data[2].first_name')
 
-
-WS.verifyElementPropertyValue(response, 'data[5].first_name', &quot;Rachel&quot;)</verificationScript>
+println(&quot;Global variable FirstName is: &quot;+GlobalVariable.First_Name)
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

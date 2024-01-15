@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WS.sendRequestAndVerify(findTestObject('API/REQRES/Get user list'))
 
+WS.sendRequest(findTestObject('API/REST/Update an employee record'))
+

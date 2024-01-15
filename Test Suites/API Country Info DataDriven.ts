@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>API Country Info DataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2df125e6-93fb-426c-b5a4-23ea666a7c5d</testSuiteGuid>
+   <testCaseLink>
+      <guid>8de81605-9a31-4d35-b3eb-5dc25bf67961</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CountryInfoValidation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b573b047-5491-491e-8d5a-fcb8067f57de</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/API TestData/Api Country dataDriven</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b573b047-5491-491e-8d5a-fcb8067f57de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CountryName</value>
+         <variableId>6c0844d5-7f69-4b93-9649-4319d7914efd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b573b047-5491-491e-8d5a-fcb8067f57de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CountryISOCode</value>
+         <variableId>a45c09b8-024b-477d-93d1-ecbc2bd79709</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b573b047-5491-491e-8d5a-fcb8067f57de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CurrencyCode</value>
+         <variableId>6e724e4e-d504-40b7-9e1b-03f3c7406e60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b573b047-5491-491e-8d5a-fcb8067f57de</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CapitalCity</value>
+         <variableId>5ad7c044-2fa9-40e1-b17e-3a86f204128f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
